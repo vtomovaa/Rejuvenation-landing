@@ -1,0 +1,492 @@
+body {
+  font-family: "Lunasima", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+p {
+  line-height: 1.2;
+  letter-spacing: 1px;
+}
+
+img {
+  width: 100%;
+}
+
+.fa-solid {
+  font-size: 40px;
+}
+
+.topnav {
+  display: none;
+}
+
+.subheader {
+  padding-bottom: 20px;
+  background-color: #fff5f7;
+}
+
+.sub-content img {
+  width: 8%;
+}
+
+.sub-content {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.sub-text p {
+  margin: 0;
+}
+
+.sub-text .p1 {
+  font-size: 50px;
+  color: #ff8863;
+  font-weight: 600;
+}
+
+.sub-text .p2 {
+  letter-spacing: 5px;
+  margin-left: 8px;
+  margin-top: 5px;
+}
+
+.main-container {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  margin: 20px auto;
+  gap: 5px;
+  justify-content: flex-end;
+}
+
+.container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.container-content h2 {
+  font-size: 26px;
+}
+
+.icons img {
+  width: 4%;
+}
+
+.nav-bar {
+  padding: 20px;
+  background-color: #ff8863;
+}
+
+.nav-bar ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  font-size: 20px;
+}
+
+.nav-bar ul li a {
+  color: white;
+}
+
+.nav-bar ul li {
+  transition: all 0.2s ease;
+  padding: 9px 18px;
+}
+
+.nav-bar ul li:hover {
+  cursor: pointer;
+  border-radius: 20px;
+  background-color: white;
+  color: #ff8863;
+}
+
+.nav-bar ul li:hover a {
+  color: #ff8863;
+}
+
+.important-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-size: 28px;
+}
+
+.bf-img {
+  width: 55%;
+  margin: 0 auto;
+  display: block;
+}
+
+.hope-title {
+  position: relative;
+  font-size: 34px;
+}
+
+.hope-title:after {
+  position: absolute;
+  content: url(../images/icon__quote.png);
+  right: 0;
+  top: 0;
+}
+
+.cta-section {
+  background-color: #f0f0f0;
+  box-shadow: 0px 5px 20px 5px rgba(0, 0, 0, 0.2);
+  padding: 15px 30px;
+}
+
+.official-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.official-btn a {
+  display: inline-block;
+  padding: 10px 25px;
+  font-size: 28px;
+  background-color: #ed0064;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.official-btn a:hover {
+  background-color: #bf1a60;
+  box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+.pink-hr {
+  background-color: #bf1a60;
+}
+
+.pink-title {
+  color: #ed0064;
+  font-size: 30px;
+}
+
+.list-items {
+  padding-left: 50px;
+}
+
+.list-items li {
+  position: relative;
+  padding-left: 20px;
+}
+
+.list-items li:before {
+  position: absolute;
+  content: url(../images/icon__good.png);
+  left: -30px;
+  top: 0%;
+}
+
+.second-list-items {
+  padding-left: 50px;
+}
+
+.second-list-items li {
+  position: relative;
+  padding-left: 25px;
+  margin-bottom: 10px;
+}
+
+.second-list-items li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 6px;
+  height: 6px;
+  background-color: black;
+  border-radius: 50%;
+}
+
+.author {
+  display: flex;
+  gap: 14px;
+  margin-top: 50px;
+  align-items: center;
+}
+
+.comm-title,
+.aside-container h2 {
+  padding: 16px 24px;
+  color: #ff8863;
+  background-color: #fbf3f7;
+}
+
+.comment-content,
+.answer,
+.answer2 {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.comment-content {
+  align-items: flex-start;
+}
+
+.answer img,
+.answer2 img {
+  width: 5%;
+}
+
+.answer,
+.answer2 {
+  margin-left: 30px;
+}
+
+.answer2 {
+  margin-left: 45px;
+}
+
+.question {
+  width: 80%;
+}
+
+.daniella-img {
+  width: 30%;
+  display: block;
+  margin-left: 55px;
+}
+
+.comm-img {
+  margin-top: 15px;
+}
+
+.dayane-img {
+  width: 50%;
+  display: block;
+  margin-left: 55px;
+}
+
+.article-text {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 30px;
+  background-color: #f8f9ff;
+}
+
+.article-text img {
+  width: 12%;
+}
+
+.article-text p a {
+  text-decoration: underline;
+  color: #333;
+}
+
+.aside-container {
+  margin-left: 50px;
+}
+
+footer {
+  margin-top: 50px;
+}
+
+footer ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer ul li {
+  margin: 20px;
+}
+
+footer ul li a {
+  color: #333;
+}
+
+/* swiper */
+
+.sw-div {
+  width: 85%;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+
+@media only screen and (max-width: 1440px) {
+  .container {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .main-container {
+    width: 98%;
+  }
+
+  .nav-bar ul {
+    gap: 0;
+  }
+
+  .hope-title {
+    font-size: 24px;
+  }
+
+  .aside-container {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .hope-title {
+    font-size: 24px;
+  }
+
+  .nav-bar,
+  .subheader {
+    display: none;
+  }
+
+  .sub-text .p2 {
+    color: #333;
+  }
+
+  /* Style the navigation menu */
+  .topnav {
+    display: block;
+    overflow: hidden;
+    background-color: #ff8863;
+    position: relative;
+  }
+
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .topnav #myLinks {
+    display: none;
+  }
+
+  /* Style navigation menu links */
+  .topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  /* Style the hamburger menu */
+  .topnav a.icon {
+    background: #ff8863;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  /* Add a grey background color on mouse-over */
+  #myLinks a:hover {
+    background-color: #fbf3f7;
+    color: #ff8863;
+  }
+
+  .active {
+    background-color: #fbf3f7;
+    color: white;
+  }
+
+  .important-info {
+    font-size: 20px;
+  }
+
+  .pink-title {
+    font-size: 26px;
+  }
+
+  .main-container {
+    display: block;
+  }
+
+}
+
+@media only screen and (max-width: 450px) {
+  .hope-title {
+    padding: 5px;
+    font-size: 28px;
+  }
+
+  .sub-text .p1 {
+    font-size: 20px;
+  }
+
+  .sub-text .p2 {
+    font-size: 11px;
+    letter-spacing: 0px;
+    margin-left: 2px;
+  }
+
+  .answer img,
+  .answer2 img {
+    width: 12%;
+  }
+
+  .bf-img {
+    width: 85%;
+  }
+
+  .sw-div {
+    width: 100%;
+    padding: 0;
+  }
+
+  .swiper-pagination-fraction {
+    display: none;
+  }
+
+  .swiper-button-next,
+  .swiper-button-prev {
+    top: 95% !important;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  .container-content h2 {
+    font-size: 18px;
+  }
+
+  .pink-title {
+    font-size: 22px;
+  }
+
+  .hope-title:after {
+    top: -16px;
+  }
+
+  .hope-title {
+    font-size: 26px;
+  }
+
+  .sub-content {
+    gap: 10px;
+  }
+
+  .sub-content img {
+    width: 12%;
+  }
+}
+
+/*  */
